@@ -1,0 +1,16 @@
+
+spring:
+  application:
+    name: ServiceApp
+
+
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: e7d508b90ccf869d7968
+            clientSecret: f3b3bc934b4e08261e51557c37416457cd51f8ad
+            
+server:
+  port: 8091
